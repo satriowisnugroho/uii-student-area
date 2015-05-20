@@ -47,10 +47,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <ul>
             <li>
-                <input name="nim" type="text" class="text" value="{{ old('nim') }}" placeholder="NIM"><a href="#" class=" icon user"></a>
+	            <i class=" icon user"></i>
+                <input name="nim" type="text" class="text" value="{{ old('nim') }}" placeholder="NIM">
             </li>
             <li>
-                <input name="password" type="password" placeholder="password"><a href="#" class=" icon lock"></a>
+	            <i class=" icon lock"></i>
+                <input name="password" type="password" placeholder="password">
             </li>
         </ul>
         <div class="submit">
